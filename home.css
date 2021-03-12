@@ -150,6 +150,11 @@ h5{
 
 /* profile-section */
 
+.info{
+    font-weight: normal;
+    text-decoration: none;
+}
+
 .profile-section{
     display: flex;
     flex-direction: row;
@@ -168,6 +173,7 @@ h5{
 }
 
 .introduction>h2{
+    margin-top: 0;
     margin-bottom: 15px;
     font-family: 'Montserrat', sans-serif;
     font-size: 20px;
